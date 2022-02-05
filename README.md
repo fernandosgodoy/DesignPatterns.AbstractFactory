@@ -22,6 +22,7 @@ Use Abstract Factory when: \
 
 ##UML for example that I thought here
 I made an example for a real world case:
+<img src="https://fsdeveloper.com.br/examples/2022.02.05-example-abstract-factory.png"
+	alt="Abstract Factory example" />
 
-##
 
