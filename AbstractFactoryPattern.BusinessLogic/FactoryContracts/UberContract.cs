@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AbstractFactoryPattern.BusinessLogic.ConcreteFactory;
+using AbstractFactoryPattern.BusinessLogic.Domain;
 
-namespace AbstractFactoryPattern.ConsoleApp
+namespace AbstractFactoryPattern.BusinessLogic.FactoryContracts
 {
     public class UberContract
         : RentVehicleFactory

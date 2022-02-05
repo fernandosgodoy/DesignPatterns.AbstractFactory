@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AbstractFactoryPattern.BusinessLogic.ConcreteFactory;
+using AbstractFactoryPattern.BusinessLogic.FactoryContracts;
 
-namespace AbstractFactoryPattern.ConsoleApp
+namespace AbstractFactoryPattern.BusinessLogic
 {
-    internal class Client
+    public class RentVehicleClient
     {
         private readonly ParticularCustomer particularCustomer;
         private readonly EnterpriseCustomer enterpriseCustomer;
         // Constructor
-        public Client(RentVehicleFactory factory)
+        public RentVehicleClient(RentVehicleFactory factory)
         {
             this.particularCustomer = factory.MakeParticularContract();
             this.enterpriseCustomer = factory.MakeEnterpriseContract();

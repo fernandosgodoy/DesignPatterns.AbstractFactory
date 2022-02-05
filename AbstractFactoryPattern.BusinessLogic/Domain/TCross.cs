@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AbstractFactoryPattern.BusinessLogic.ConcreteFactory;
 
-namespace AbstractFactoryPattern.ConsoleApp
+namespace AbstractFactoryPattern.BusinessLogic.Domain
 {
-    class Virtus
-        : ParticularCustomer
+    class TCross : EnterpriseCustomer
     {
         public override bool TotalInsurance { get; set; }
 

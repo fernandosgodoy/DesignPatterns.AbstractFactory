@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AbstractFactoryPattern.BusinessLogic.ConcreteFactory;
 
-namespace AbstractFactoryPattern.ConsoleApp
+namespace AbstractFactoryPattern.BusinessLogic.Domain
 {
-    class Argo
-        : EnterpriseCustomer
+    class Onix
+        : ParticularCustomer
     {
         public override bool TotalInsurance { get; set; }
+
         public override bool Free { get; set; }
 
         public override bool FullTank { get; set; }
